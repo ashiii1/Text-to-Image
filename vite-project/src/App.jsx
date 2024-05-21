@@ -73,7 +73,7 @@ import axios from 'axios';
 
 
 const API_URL = 'https://api.unsplash.com/search/photos';
-const IMAGE_PER_PAGE = 20;
+const IMAGE_PER_PAGE = 18;
 
 function App() {
 
@@ -126,6 +126,11 @@ console.log('page' , page)
 
 
   return (
+
+
+    <>
+  
+
     <div className='container' >
       
       <h1 className='title' >Image Search</h1>
@@ -154,6 +159,7 @@ console.log('page' , page)
         <Button onClick={()=>setPage(page + 1)}>Next</Button>)} 
       </div>
     </div>
+    </>
   );
         }
 

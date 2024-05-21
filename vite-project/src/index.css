@@ -9,6 +9,8 @@
   --primary-color: #7676d7;
 }
 
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,6 +19,13 @@
 
 body {
   color: var(--primary-color);
+  background-image: url("https://media.istockphoto.com/id/955765580/photo/palm-tree-in-beach-in-tropical-island-caribbean-guadalupe.jpg?s=612x612&w=0&k=20&c=IAh5qJ5T6JZUUebYwtAjt_ySYFQZ7otp70up_9MIE_o=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 60%;
+  margin: 0;
 }
 
 /* common css starts */
@@ -155,9 +164,7 @@ body {
   }
 }
 
-
-
-.buttons{
+.buttons {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -165,4 +172,3 @@ body {
   gap: 1rem;
   margin-top: var(--default-margin);
 }
-
