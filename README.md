@@ -4,9 +4,13 @@ This project is a React application built with Vite that utilizes the Unsplash A
 Features
 
 Text-to-Image Conversion: Enter any text, and the application will dynamically fetch relevant images from Unsplash based on the input.
+
 Responsive UI: The application is designed to be responsive and work smoothly across various devices and screen sizes.
+
 Fast Development with Vite: Built with Vite for rapid development and efficient bundling, ensuring a speedy development experience.
+
 Best UI Practices: The user interface is designed with usability and aesthetics in mind, providing an intuitive experience for users.
+
 Technologies Used
 React.js: Frontend library for building user interfaces.
 Vite: A fast build tool that significantly improves the frontend development experience.
