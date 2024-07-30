@@ -1,0 +1,15 @@
+version: '3'
+services:
+  react-app1:
+    build:
+      context: ./path-to-react-app1
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+
+  react-app2:
+    build:
+      context: ./path-to-react-app2
+      dockerfile: Dockerfile
+    ports:
+      - "8081:80"
